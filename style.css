@@ -1,0 +1,141 @@
+body{
+    background-color: lightgrey;
+}
+header {
+  position: fixed;
+  background-color: black;
+  height: 60px;
+  margin-top: -8px;
+  margin-left: -8px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 19px;
+  width: 100%;
+  z-index: 100;
+}
+a {
+  margin-top: 11px;
+  font-size: 25px;
+  color:white;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+.location-img {
+  margin-top: 14px;
+}
+.select-your-address {
+  margin-top: 9px;
+  font-size: 14px;
+}
+form {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  background-color: black;
+}
+.search {
+  margin-left: -4.5px;
+  height: 20px;
+  width: 600px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+select {
+  height: 25.8px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+.search-logo {
+  border: 2px solid white;
+  margin-left: -2.8px;
+}
+.india-image {
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  margin-top: 15px;
+}
+#sign-in {
+  margin-top: 5px;
+  margin-left: 30px;
+}
+#cart-image {
+  border-radius: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+img{
+  border-radius: 10px;
+}
+.whole-div{
+display: flex;
+flex-direction: column;
+position: relative;
+top:60px;
+background-color: white;
+width:522px;
+margin-bottom:20px;
+border:5px double black;
+border-radius: 10px;
+}
+.sign-in{
+  font-size:20px;
+  margin-top:50px;
+}
+#signin{
+  margin-left: 90px;
+}
+.bottom{
+  background-color: white;
+  color:black;
+  font-size: 30px;
+}
+button{
+  background-color: yellow;
+  color:black;
+  border:none;
+  width:400px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 55px;
+}
+.see-more{
+  margin-left: 20px;
+font-size:18px;
+}
+.bottom-div{
+display: flex;
+flex-direction: row;
+gap: 20px;
+margin-left: 20px;
+font-size:20px;
+}
+.top-div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 20px;
+    font-size:20px;
+}
+.name-of-image{
+    margin-top:-5px;
+}
+.first-row{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+.whole-content{
+    display: flex;
+    flex-direction: column;
+}
